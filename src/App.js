@@ -85,11 +85,11 @@ const App = () => {
     <div className="app">
       <section className="search-section">
         <div className="image-container">
-          <img
+         <img 
             className="image"
             src={image ? URL.createObjectURL(image) : ""}
-            alt="Images"
-          />
+            alt="Images" 
+          /> 
         </div>
 
         {!response && <p className="extra-info ">
